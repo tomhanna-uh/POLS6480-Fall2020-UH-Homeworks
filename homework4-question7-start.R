@@ -18,3 +18,5 @@ pres08 <-read.csv(textConnection(myfile), header=T)
 head(pres08)
 
 total<-merge(mydat, pres08, by=("state"))
+
+#Git commit
